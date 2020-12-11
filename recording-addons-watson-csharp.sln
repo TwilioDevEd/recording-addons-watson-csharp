@@ -1,9 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recording-addons-watson-csharp", "recording-addons-watson-csharp\recording-addons-watson-csharp.csproj", "{CF65A3F0-1E32-405B-BBFA-4005D7D25D1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D837950-5F6C-47F1-94AF-BBFA328D3A3D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.mergify.yml = .mergify.yml
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C9F241FF-D7C9-4ACA-87C4-85A3AC16890D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{20821CBE-3B34-4352-BA42-20026B74B7AA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\NetFx.yml = .github\workflows\NetFx.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +35,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9F241FF-D7C9-4ACA-87C4-85A3AC16890D} = {6D837950-5F6C-47F1-94AF-BBFA328D3A3D}
+		{20821CBE-3B34-4352-BA42-20026B74B7AA} = {C9F241FF-D7C9-4ACA-87C4-85A3AC16890D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EA9FA41-BF8F-426C-89CD-1A5E3E701B34}

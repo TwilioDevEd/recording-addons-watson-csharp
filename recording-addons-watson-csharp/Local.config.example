@@ -1,0 +1,4 @@
+﻿<appSettings>
+  <add key="TwilioAccountSid" value="your_account_sid" />
+  <add key="TwilioAuthToken" value="your_auth_token" />
+</appSettings>

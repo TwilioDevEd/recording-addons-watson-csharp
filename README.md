@@ -19,7 +19,8 @@ This application should give you a ready-made starting point for writing your ow
    cd recording-addons-watson-csharp
    ```
 
-3. After downloading the repo, open the `recording-addons-watson-csharp/Web.config.example` file and edit the `TwilioAccountSid` and `TwilioAutToken` with your own data:
+3. After downloading the repo, copy the `recording-addons-watson-csharp/Local.config.example` to
+`recording-addons-watson-csharp/Local.config` file and edit the `TwilioAccountSid` and `TwilioAutToken` with your own data:
 ```xml
 <appSettings>
 	<add key="TwilioAccountSid" value="ACxxx" />
@@ -27,7 +28,9 @@ This application should give you a ready-made starting point for writing your ow
 </appSettings>
 ```
 
-4. Update those values in the config file to match your Twilio account. You can get your Account SID and auth token from your [dashboard](https://www.twilio.com/console). You can buy a Twilio phone number [right here](https://www.twilio.com/user/account/phone-numbers/search) (the one you are going to call to test the application).
+4. Update those values in the config file to match your Twilio account. You can get your Account SID and auth
+token from your [dashboard](https://www.twilio.com/console). You can buy a Twilio phone number [right here](https://www.twilio.com/user/account/phone-numbers/search)
+(the one you are going to call to test the application).
 
 5. Build the solution in Visual Studio.
 
@@ -65,5 +68,5 @@ This application should give you a ready-made starting point for writing your ow
 ## Meta
 
 * No warranty expressed or implied. Software is as is. Diggity.
-* [MIT License](http://www.opensource.org/licenses/mit-license.html)
+* [MIT License](LICENSE)
 * Lovingly crafted by Twilio Developer Education.
