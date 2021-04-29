@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/recording-addons-watson-csharp"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Twilio
+    versions:
+    - 5.53.1
+    - 5.54.0
+    - 5.55.0
+    - 5.56.0
+    - 5.57.0
+    - 5.58.0
